@@ -1,0 +1,270 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #131212;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-color: #1F211F;
+    padding: 20px;
+    gap: 30px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+
+}
+
+.menu ul li {
+    display:flex;
+    align-items: center;
+}
+
+.menu-logo {
+    text-decoration: none;
+    color: #69BA62;
+    font-size: 30px;
+}
+
+.menu ul li .menu-opt {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu ul li .menu-opt:hover {
+    color: #42913b;
+}
+
+.menu-contact-b a:hover {
+    color: #3c5439;
+    background-color: #000000;
+}
+
+.menu-contact-b a {
+    text-decoration: none;
+    color: #69BA62;
+    background-color:#131212;
+    padding: 10px;
+}
+
+/* website */
+.portfolio-design {
+
+}
+
+.portafolio-design-title {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.portafolio-design-title p{
+    color: #367E2F;
+}
+.p-design-title-line {
+    background: #367E2F;
+    width: 5px;
+    height: 80px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.portfolio-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.portfolio-design h2 {
+    color: white;
+}
+.p-code-websites {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    gap: 20px;
+}
+
+.p-code-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #367E2F;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.p-d-link {
+    color: rgb(179, 255, 205);
+    text-decoration: wavy underline rgb(255, 255, 255);
+}
+
+.p-d-link:hover {
+    color: rgb(90, 200, 129);
+    text-decoration: wavy underline rgb(51, 98, 51);
+} 
+
+
+.p-design-photography {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.p-design-photography h3 {
+    color: white;
+}
+.p-design-pgh {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.p-design-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #367E2F;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.p-design-box a {
+    color: rgb(179, 255, 205);
+    text-decoration: wavy underline rgb(255, 255, 255);
+}
+
+.p-design-box a:hover {
+    color: rgb(90, 200, 129);
+    text-decoration: wavy underline rgb(51, 98, 51);
+}
+
+.p-own-products {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 50px;
+    gap: 5px;
+}
+
+.p-own-products-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.p-own-products h4 {
+    font-size: 20px;
+}
+
+.p-own-products-box a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color:#e32323;
+    padding: 10px;
+}
+
+.p-own-products-box a:hover {
+    background-color:#9e1818;
+}
+
+.p-satisfied-clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+    background: rgb(32, 33, 32);
+    padding: 20px;
+}
+.p-satisfied-client-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.p-satisfied-client-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 350px;
+    color: white;
+    padding: 10px;
+
+}
+
+.p-satisfied-client-box a {
+    background: #e32323;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #1f2e1e5b;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.p-satisfied-client-box a:hover {
+    background-color:#9e1818;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(49, 130, 43);
+}
+
+footer a:hover {
+    color: #296523;
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+
+footer p {
+    color: #8fb58c;
+}
+
+

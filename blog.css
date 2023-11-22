@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #131212;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-color: #1F211F;
+    padding: 20px;
+    gap: 30px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+
+}
+
+.menu ul li {
+    display:flex;
+    align-items: center;
+}
+
+.menu-logo {
+    text-decoration: none;
+    color: #69BA62;
+    font-size: 30px;
+}
+
+.menu ul li .menu-opt {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu ul li .menu-opt:hover {
+    color: #42913b;
+}
+
+.menu-contact-b a:hover {
+    color: #3c5439;
+    background-color: #000000;
+}
+
+.menu-contact-b a {
+    text-decoration: none;
+    color: #69BA62;
+    background-color:#131212;
+    padding: 10px;
+}
